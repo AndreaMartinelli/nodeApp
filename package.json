@@ -1,0 +1,19 @@
+{
+  "name": "qualprox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && tar -zcf qualprox.tar . " 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "mongoose": "4.6.0",
+    "socket.io": "1.4.8",
+    "validator": "5.7.0"
+  }
+}
